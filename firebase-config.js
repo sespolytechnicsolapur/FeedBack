@@ -6,15 +6,14 @@ import { getAuth, signInAnonymously, onAuthStateChanged, signInWithEmailAndPassw
 import { getFirestore, collection, addDoc, getDocs, serverTimestamp, query, orderBy } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-firestore.js";
 
 // 2. Your web app's Firebase configuration
-// IMPORTANT: Replace this configuration object with your actual Firebase Project config!
 const firebaseConfig = {
-  apiKey: "AIzaSyA0q32DGf9guFwl0HTTKf1A8g1VJ5-Qz_g",
-  authDomain: "feedbackform-22c52.firebaseapp.com",
-  projectId: "feedbackform-22c52",
-  storageBucket: "feedbackform-22c52.firebasestorage.app",
-  messagingSenderId: "931033145288",
-  appId: "1:931033145288:web:c224330a9a459fbfcaeafd",
-  measurementId: "G-J62H6CCGPZ"
+  apiKey: "AIzaSyChnA934owznPeliDnYlCiXZ07hdjVeKSk",
+  authDomain: "forms-1d8e0.firebaseapp.com",
+  projectId: "forms-1d8e0",
+  storageBucket: "forms-1d8e0.firebasestorage.app",
+  messagingSenderId: "709550874827",
+  appId: "1:709550874827:web:38c45396f87be018bc3b4e",
+  measurementId: "G-E3R0BCC97Z"
 };
 
 // 3. Initialize Firebase
